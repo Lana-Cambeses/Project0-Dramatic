@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Dramatic extension",
+    "description" : "Identifies movies and show references from subtitles on netflix",
+    "version": "1.0",
+    "background":{
+        "service_worker": "scripts/background.js"
+    },
+    "action":{
+        "default_popup": "index.html"
+    },
+    "host_permissions" : [
+        "https://www.netflix.com/watch/*"
+    ],
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts" : [
+        {
+            "matches": ["https://www.netflix.com/watch/*"],
+            "js": ["scripts/content.js"]
+        }
+    ]
+}

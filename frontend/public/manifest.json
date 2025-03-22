@@ -12,7 +12,7 @@
     "host_permissions" : [
         "https://www.netflix.com/watch/*"
     ],
-    "permissions": ["activeTab", "scripting"],
+    "permissions": ["activeTab", "scripting", "tabs", "storage"],
     "content_scripts" : [
         {
             "matches": ["https://www.netflix.com/watch/*"],

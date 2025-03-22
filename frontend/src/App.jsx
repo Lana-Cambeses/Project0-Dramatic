@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
-import logo from './assets/logo.webp';
+import { useState, useEffect} from 'react';
 import './index.css';
+import logo from './assets/logo.webp';
 
 
 
@@ -8,40 +8,48 @@ function App() {
   const [term, setTerm] = useState("");
   const [result, setResult] = useState(null);
 
-  const handleSearch = async (customTerm) => {
-    const search = customTerm || term;
-    if (!search) return;
   
+  const handleSearch = async () => {
+    if (!term) return;
+
     try {
-      const res = await fetch(`http://localhost:3000/reference?term=${encodeURIComponent(search)}`);
+      const res = await fetch(`http://localhost:3000/reference?term=${encodeURIComponent(term.toLowerCase())}`);
       const data = await res.json();
       setResult(data);
     } catch (err) {
       setResult({ error: true, description: "Something went wrong." });
     }
-  };  
-  
+  };
+
+  // chrome.runtime.onMessage.addListener((message) => {
+  //   if (message.target === "popup" && message.quote) {
+  //     var quote = message.quote;
+  //     console.log(quote)
+      
+
+  //   }
+  // });
+
   useEffect(() => {
-    const handleMessage = (request, sender, sendResponse) => {
-      if (request.target === "popup" && request.data) {
-        const selectedText = request.data.trim().toLowerCase();
-        setTerm(selectedText);
-        handleSearch(selectedText); // auto-fetch explanation
+    chrome.storage.sync.get(['quote'], function(result){
+      if(result.quote){
+        var str = result.quote.trim().toLowerCase()
+        str = removePunctuation(str)
+        setTerm(str)
       }
-    };
-
-    // Add the listener
-    chrome.runtime.onMessage.addListener(handleMessage);
-
-    // Clean up when component unmounts
-    return () => {
-      chrome.runtime.onMessage.removeListener(handleMessage);
-    };
-  }, []);
+    })
+  }, []); 
+  function removePunctuation(text) {
+    return text.replace(/[^\w\s]|_/g, "").replace(/\s+/g, " ");
+  }
+  useEffect(() => {
+    if(term)
+      handleSearch()
+  }, [term]); 
 
   return (
     <div>
-      <img src={logo} alt="Dramatic Logo" className="brand-logo" />
+      <img src={logo} alt="Dramatic logo" className="brand-logo" />
       <p className="tagline">Hover. Decode. Dramatically.</p>
 
       <input

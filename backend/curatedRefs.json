@@ -1,0 +1,207 @@
+{
+    "jojo pose": {
+      "title": "JoJo Pose",
+      "description": "Exaggerated, dramatic stances used by characters in *JoJo’s Bizarre Adventure*. These poses are so stylized and frequent they've become a meme and a symbol of anime flamboyance.",
+      "image": "https://static.jojowiki.com/images/thumb/2/26/latest/20210812000015/JonathanPose.png/300px-JonathanPose.png",
+      "link": "https://jojo.fandom.com/wiki/Posing"
+    },
+    "it's over 9000": {
+      "title": "It's Over 9000!",
+      "description": "A legendary meme from *Dragon Ball Z*, where Vegeta reacts to Goku's power level. The phrase symbolizes extreme power and is one of the most iconic lines in anime history.",
+      "image": "https://i.kym-cdn.com/entries/icons/original/000/000/554/over9000.jpg",
+      "link": "https://dragonball.fandom.com/wiki/It%27s_Over_9000!"
+    },
+    "chekhov's gun": {
+      "title": "Chekhov's Gun",
+      "description": "A storytelling principle that states every element introduced must serve a purpose. If a gun is shown in Act 1, it must be fired by Act 3. Common in tightly-written thrillers and anime.",
+      "image": null,
+      "link": "https://en.wikipedia.org/wiki/Chekhov%27s_gun"
+    },
+    "nakama": {
+      "title": "Nakama",
+      "description": "A Japanese word meaning 'comrade' or 'close companion', famously used in *One Piece*. It's loaded with emotional weight and signifies deep loyalty and chosen family.",
+      "image": "https://static.wikia.nocookie.net/onepiece/images/f/f9/Nakama_Scene.png",
+      "link": "https://onepiece.fandom.com/wiki/Nakama"
+    },
+    "the cake is a lie": {
+      "title": "The Cake is a Lie",
+      "description": "A cryptic phrase from the game *Portal* that became a meme. It's a metaphor for false promises — often used in pop culture commentary and dark humor.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/e/e3/The_Cake_is_a_Lie_Portal.jpg",
+      "link": "https://en.wikipedia.org/wiki/The_Cake_Is_a_Lie"
+    },
+    "train scene": {
+      "title": "Anime Train Scene",
+      "description": "Common in anime — characters on a train, often reflecting on life or watching scenery fly by. Symbolizes movement, change, or emotional turning points.",
+      "image": "https://i.pinimg.com/originals/6d/56/ed/6d56ed2b2ebad535bf8d04d850843d88.jpg",
+      "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/TrainRidePlot"
+    },
+    "power of friendship": {
+      "title": "Power of Friendship",
+      "description": "A classic anime trope where emotional bonds between characters become literal sources of strength. Often used in climactic fights where love and loyalty overcome power.",
+      "image": "https://staticg.sportskeeda.com/editor/2022/12/85fcd-16716587293347-1920.jpg",
+      "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/PowerOfFriendship"
+    },
+    "you are already dead": {
+      "title": "Omae wa mou shindeiru",
+      "description": "From *Fist of the North Star*. The phrase means 'You are already dead', usually said before the enemy realizes they've been struck. It became a viral anime meme with the reply 'NANI?!'",
+      "image": "https://i.kym-cdn.com/entries/icons/original/000/027/395/omg.jpg",
+      "link": "https://knowyourmeme.com/memes/omae-wa-mou-shindeiru"
+    },
+    "he's just like me fr": {
+      "title": "He's Just Like Me fr",
+      "description": "A meme where someone sees a tragic, edgy, or misunderstood character and relates deeply, often ironically. Popular on anime TikTok and edits.",
+      "image": "https://pbs.twimg.com/media/FZ-fgGkXwAEsGnv.jpg",
+      "link": "https://knowyourmeme.com/memes/hes-just-like-me-fr"
+    },
+    "screaming in the rain": {
+      "title": "Screaming in the Rain",
+      "description": "A dramatic moment in many anime and live-action shows where a character has an emotional breakdown — often screaming while it's raining. Peak drama energy.",
+      "image": "https://64.media.tumblr.com/8f80558e9a29606b3fa8be12a546eced/tumblr_inline_pjss6qlDPf1u4f4k8_500.gif",
+      "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/ScreamingAtTheRain"
+    },
+    "trauma haircut": {
+        "title": "Trauma Haircut",
+        "description": "Seen in countless dramas and movies — a character cuts their hair after a breakup, loss, or identity crisis. Symbolizes emotional rebirth or taking control.",
+        "image": "https://i.pinimg.com/564x/ed/23/97/ed23979d1d9fdd27c84d69b0a7e6cf0e.jpg",
+        "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/MeaningfulHaircut"
+      },
+      "i'm not like other girls": {
+        "title": "I'm Not Like Other Girls",
+        "description": "A self-aware or sometimes cringe trope where a female character distinguishes herself from others, often through quirky habits or ‘tomboy’ vibes. Common in rom-coms and early 2000s YA.",
+        "image": "https://i.kym-cdn.com/entries/icons/mobile/000/025/736/notlikeothergirlscover.jpg",
+        "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/NotLikeOtherGirls"
+      },
+      "you dropped this 👑": {
+        "title": "You Dropped This 👑",
+        "description": "A viral phrase used to praise someone for saying or doing something admirable, often ironically. The crown emoji adds a playful sense of royalty or iconic status.",
+        "image": "https://media.tenor.com/N8sCboYy0-sAAAAd/you-dropped-this-king.gif",
+        "link": "https://knowyourmeme.com/memes/you-dropped-this-%F0%9F%91%91"
+      },
+      "do revenge": {
+        "title": "Do Revenge",
+        "description": "From the Netflix film *Do Revenge* — a Gen Z homage to high school revenge thrillers. The title itself became a meme for chaotic, stylish payback energy.",
+        "image": "https://m.media-amazon.com/images/M/MV5BZTgxMDc4Y2MtZmM4NS00Y2M4LWE0NjctZDM4ODliM2FkMDk3XkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+        "link": "https://www.netflix.com/title/81476453"
+      },
+      "slow zoom in on crying": {
+        "title": "Slow Zoom Crying Shot",
+        "description": "A dramatic cinematography trick used in K-dramas and thrillers — the camera slowly zooms in on a crying character's face to emphasize emotional collapse.",
+        "image": "https://64.media.tumblr.com/e8575bb6d59fca81c820b53867ac7814/4ec4fbe61f58a6d9-29/s540x810/0a59a0f3071e3d8f3b48b113fe6f2a7dd0571bfc.gif",
+        "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/DramaticZoom"
+      },
+      "gaslight gatekeep girlboss": {
+        "title": "Gaslight, Gatekeep, Girlboss",
+        "description": "An ironic remix of toxic behaviors turned empowerment slogan. Originally meant to mock corporate feminism, but now used both seriously and sarcastically online.",
+        "image": "https://pbs.twimg.com/media/FAVXuS-XEAICt8d.jpg",
+        "link": "https://knowyourmeme.com/memes/gaslight-gatekeep-girlboss"
+      },
+      "kdrama umbrella scene": {
+        "title": "K-drama Umbrella Scene",
+        "description": "A romantic K-drama staple: One character gently offers their umbrella to another in the rain. Used to symbolize tenderness, protection, and *just kiss already* energy.",
+        "image": "https://cdn.myanimelist.net/images/anime/1072/120457.jpg",
+        "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/UmbrellaOfTogetherness"
+      },
+      "crying in the club": {
+        "title": "Crying in the Club",
+        "description": "Used ironically to describe emotional breakdowns in fun or inappropriate places. Often paired with party scenes, anime OPs, or emotional edits.",
+        "image": "https://i.kym-cdn.com/photos/images/original/001/243/922/41a.png",
+        "link": "https://knowyourmeme.com/memes/crying-in-the-club"
+      },
+      "villain with a point": {
+        "title": "Villain With a Point",
+        "description": "A character who is technically the antagonist — but whose ideology is *just relatable enough* to make you question your morals. Think Killmonger, Light Yagami, or Thanos.",
+        "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/09/Thanos-and-Killmonger-Villain-Who-Had-A-Point.jpg",
+        "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/VillainHasAPoint"
+      },
+      "dead wife motivation": {
+        "title": "Dead Wife Motivation",
+        "description": "A common character backstory where a male protagonist is driven by the tragic loss of a wife or lover. Often lazy writing — see John Wick, Gladiator, etc.",
+        "image": "https://media.tenor.com/_eJuKMLbc9YAAAAd/john-wick-angry.gif",
+        "link": "https://tvtropes.org/pmwiki/pmwiki.php/Main/StuffedIntoTheFridge"
+      },
+      "i want to be hokage": {
+        "title": "I Want to Be Hokage",
+        "description": "From *Naruto*. Naruto Uzumaki's lifelong goal is to become Hokage — the strongest ninja and leader of his village. It’s the ultimate underdog dream turned anime staple.",
+        "image": "https://i.pinimg.com/736x/6e/9a/0d/6e9a0d1b19dc3ad643558eaa7c1525e0.jpg",
+        "link": "https://naruto.fandom.com/wiki/Hokage"
+      },
+      "plus ultra": {
+        "title": "Plus Ultra",
+        "description": "The motto of *My Hero Academia*. It means to go 'beyond the limits' — shouted by characters when pushing past their breaking point. Literal shounen energy.",
+        "image": "https://i.pinimg.com/originals/07/b3/d2/07b3d2d38843df94f11d0dfb6e6e8e58.jpg",
+        "link": "https://myheroacademia.fandom.com/wiki/Plus_Ultra"
+      },
+      "bankai": {
+        "title": "Bankai",
+        "description": "From *Bleach*. The final, ultimate release of a Soul Reaper’s sword — unleashing massive power and a new form. Usually shouted before epic battles.",
+        "image": "https://media.tenor.com/_vMpfiFErAIAAAAC/bleach-bankai.gif",
+        "link": "https://bleach.fandom.com/wiki/Bankai"
+      },
+      "i see you're a man of culture as well": {
+        "title": "I See You're a Man of Culture as Well",
+        "description": "A respectful nod among anime or niche fans recognizing shared taste. Originated from *Arakawa Under the Bridge*, now used widely online.",
+        "image": "https://i.kym-cdn.com/photos/images/original/001/234/953/8fa.png",
+        "link": "https://knowyourmeme.com/memes/i-see-youre-a-man-of-culture-as-well"
+      },
+      "za warudo": {
+        "title": "ZA WARUDO!",
+        "description": "From *JoJo’s Bizarre Adventure*. Dio screams this before stopping time using his Stand, The World. Often followed by 'TOKI WO TOMARE!' ('Time, stop!')",
+        "image": "https://media.tenor.com/xlhG3Ofmhe8AAAAC/dio-jojo.gif",
+        "link": "https://jojo.fandom.com/wiki/The_World"
+      },
+      "nani?!": {
+        "title": "NANI?!",
+        "description": "Japanese for 'what?!'. Became a meme from *Fist of the North Star* in response to 'Omae wa mou shindeiru'. Delivered with shock and terror.",
+        "image": "https://i.kym-cdn.com/entries/icons/original/000/018/682/nani.jpg",
+        "link": "https://knowyourmeme.com/memes/nani"
+      },
+      "don't lose your way": {
+        "title": "Don't Lose Your Way",
+        "description": "Iconic lyric from *Kill la Kill*’s soundtrack that plays during fight scenes. Fans meme it as a hype boost for chaotic or emotional moments.",
+        "image": "https://media.tenor.com/WHavJwn44TUAAAAd/ryuko-kill-la-kill.gif",
+        "link": "https://kill-la-kill.fandom.com/wiki/Don%27t_Lose_Your_Way"
+      },
+      "you are not alone": {
+        "title": "You Are Not Alone",
+        "description": "From *Neon Genesis Evangelion*. Repeated throughout the series and its film titles. Used to convey human connection and isolation — heavily meme’d and parodied.",
+        "image": "https://i.pinimg.com/originals/f3/41/e9/f341e9148c4300ce2f66ae0c8f6e14b6.jpg",
+        "link": "https://evangelion.fandom.com/wiki/Evangelion:_1.0_You_Are_(Not)_Alone"
+      },
+      "shut up megumi": {
+        "title": "Shut Up, Megumi",
+        "description": "From *Konosuba*. Kazuma yelling at Megumi for her obsession with explosion magic. Became a running joke about party dysfunction and anime chaos.",
+        "image": "https://media.tenor.com/RLfT9doTt2YAAAAd/megumin-konosuba.gif",
+        "link": "https://konosuba.fandom.com/wiki/Megumin"
+      },
+      "sharingan": {
+        "title": "Sharingan",
+        "description": "A special eye technique in *Naruto* used by the Uchiha clan. Grants perception, illusion abilities, and later evolves into forms like Mangekyō Sharingan.",
+        "image": "https://upload.wikimedia.org/wikipedia/en/4/4a/Sasuke_sharingan.jpg",
+        "link": "https://naruto.fandom.com/wiki/Sharingan"
+      },
+      "i'll take a potato chip... and eat it!": {
+        "title": "I'll Take a Potato Chip... and Eat It!",
+        "description": "From *Death Note*. A wildly overdramatic scene where Light Yagami monologues about eating chips while writing in the Death Note — peak anime drama meme.",
+        "image": "https://media.tenor.com/O_NPk8oWop0AAAAC/potato-chip-death-note.gif",
+        "link": "https://knowyourmeme.com/memes/ill-take-a-potato-chip-and-eat-it"
+      },
+      "that wasn't very plus ultra of you": {
+        "title": "That Wasn't Very Plus Ultra of You",
+        "description": "A sarcastic meme remix of *My Hero Academia*’s slogan. Used when someone fails to live up to shounen ideals or acts shady.",
+        "image": "https://pbs.twimg.com/media/ECsRu6qXoAAUULP.jpg",
+        "link": "https://knowyourmeme.com/memes/that-wasnt-very-plus-ultra-of-you"
+      },
+      "anime betrayal": {
+        "title": "Top 10 Anime Betrayals",
+        "description": "A meme format started by WatchMojo’s iconic YouTube list. Now used sarcastically when someone gets backstabbed or called out online.",
+        "image": "https://i.kym-cdn.com/photos/images/facebook/001/311/392/393.jpg",
+        "link": "https://knowyourmeme.com/memes/top-10-anime-betrayals"
+      },
+      "yare yare daze": {
+        "title": "Yare Yare Daze",
+        "description": "Signature catchphrase of Jotaro Kujo from *JoJo’s Bizarre Adventure*. Loosely translates to 'good grief' or 'here we go again'. JoJo fans say it constantly.",
+        "image": "https://media.tenor.com/6vXib5NHXt8AAAAC/yare-yare-daze-jotaro.gif",
+        "link": "https://jojo.fandom.com/wiki/Jotaro_Kujo"
+      }
+  }
+  

@@ -10,7 +10,43 @@ function setCurrent(c){
 
 
 var paused = false;
+var inner_div;
+var button;
+function updateButtonPosition(){
+  if(paused && inner_div){
+    try{
+      const updatedSub =  document.querySelector("#appMountPoint").getElementsByClassName("player-timedtext-text-container")[0];
+      rect = updatedSub.getBoundingClientRect()
+      Object.assign(inner_div.style, {
+        position: `absolute`,
+        zIndex: 9999,
+        top: `${rect.top + window.scrollY}px`,
+        left: `${rect.left + window.scrollX}px`,
+        pointerEvents: `none`
+        }
+      )
+      Object.assign(button.style, {
+        position: "absolute",
+        display: `flex`,
+        justifyContent: `center`,
+        zIndex: 9998,
+        top: `${rect.top + window.scrollY}px`,
+        left: `${rect.left + window.scrollX}px`,
+        width: `${rect.width}px`,
+        height: `${rect.height}px`,
+        textAlign: `center`,
+        // background: "grey",
+        // border: "none",
+        // padding: "30px",
+        borderRadius: "10px",
+        cursor: "pointer"
+      });
+    }catch(e){}
+  }
+}
+
 const observer = new MutationObserver(() => {
+    updateButtonPosition()
     const videos = document.querySelectorAll('video');
     videos.forEach((video) => {
       if (!observedVideos.has(video)) {
@@ -18,42 +54,53 @@ const observer = new MutationObserver(() => {
             paused = true;
             console.log('Media was paused!');
             try { 
-                const inner_div =  document.querySelector("#appMountPoint").getElementsByClassName("player-timedtext-text-container")[0]
+                inner_div =  document.querySelector("#appMountPoint").getElementsByClassName("player-timedtext-text-container")[0]
                 var quote =  inner_div.innerText;
                 if (quote != current) { 
                     setCurrent(quote); 
                 } 
-                
-
                 if (!document.querySelector('#quote-button')) {
-                    const button = document.createElement("button");
+                    button = document.createElement("button");
                     const rect = inner_div.getBoundingClientRect();
                     button.id = "quote-button";
+                    
                     Object.assign(button.style, {
                         position: "absolute",
-                        zIndex: 9999,
+                        display: `flex`,
+                        justifyContent: `center`,
+                        zIndex: 9998,
                         top: `${rect.top + window.scrollY}px`,
                         left: `${rect.left + window.scrollX}px`,
                         width: `${rect.width}px`,
                         height: `${rect.height}px`,
-                        background: "transparent",
-                        border: "4px solid black",
-                        padding: "30px",
+                        textAlign: `center`,
+                        // background: "grey",
+                        // border: "none",
+                        // padding: "30px",
                         borderRadius: "10px",
                         cursor: "pointer"
-                      });
+                    });
+
                     button.addEventListener("click", function () {
                         console.log("Clicked quote:", quote);
                         chrome.runtime.sendMessage({ target: "background", value: true, quote});
                     });
-    
+                    
                     document.body.appendChild(button);
+
+                    const rect2 = button.getBoundingClientRect();
+                    Object.assign(inner_div.style, {
+                      position: `absolute`,
+                      zIndex: 9999,
+                      top: `${rect.top + window.scrollY}px`,
+                      left: `${rect.left + window.scrollX}px`,
+                      pointerEvents: `none`
+                      }
+                    )
+                    inner_div.id = "inner"
+                    document.body.appendChild(inner_div);
                 }
 
-
-                chrome.runtime.onMessage()
-
-     
         } catch (e) {}
         });
         video.addEventListener('play', () =>{
@@ -61,6 +108,7 @@ const observer = new MutationObserver(() => {
             console.log('Media was unpaused')
             if (document.querySelector('#quote-button')){
                 document.body.removeChild(document.querySelector('#quote-button'))
+                document.body.removeChild(document.querySelector('#inner'))
             }
         })
         observedVideos.add(video);

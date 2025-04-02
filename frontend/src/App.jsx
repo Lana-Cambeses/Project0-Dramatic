@@ -16,6 +16,7 @@ function App() {
       const res = await fetch(`http://localhost:3000/reference?term=${encodeURIComponent(term.toLowerCase())}`);
       const data = await res.json();
       setResult(data);
+
     } catch (err) {
       setResult({ error: true, description: "Something went wrong." });
     }
